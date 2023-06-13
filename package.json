@@ -1,0 +1,13 @@
+{
+  "name": "LiquidNFT",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "install:contract": "cd ./contract && yarn install",
+    "install:frontend": "cd ./frontend && yarn install",
+    "install:all": "cd ./contract && yarn install && cd ../frontend && yarn install",
+    "compile": "cd ./contract && npx hardhat compile",
+    "build:frontend": "cd ./frontend && yarn build",
+    "start": "cd ./frontend && yarn start"
+  }
+}
